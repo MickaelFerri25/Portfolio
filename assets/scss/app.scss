@@ -83,7 +83,7 @@ header {
                     display: block;
                     font-size: 22px;
                     color: $blue;
-                    @media screen and (max-width:400px) {
+                    @media screen and (max-width:600px) {
                         transform: translateX(60px);
                     }
                 }
@@ -303,7 +303,7 @@ header {
     color: $blue;
     @media screen and (max-width:1100px) {  
         position: absolute;
-        margin: 50px 0 40px 0;
+        margin: 40px 0 40px 0;
         left: 50%;
         transform: translateX(-50%);
     }

@@ -45,7 +45,8 @@ form {
         font-weight: 600;
         font-size: 15px;
         &:hover {
-            background-color: $w;
+            cursor: pointer;
+            background-color: $bg;
             color: $blue;
         }
     }
