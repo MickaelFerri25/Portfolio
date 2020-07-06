@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bedd7b9608.js" crossorigin="anonymous" defer></script>
+    <script src="./assets/js/burger.js" defer></script>
+    <script src="./assets/js/Voirplus.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" defer></script>
+    <script src="./assets/js/ScrollReveal.js" defer></script>
+    <title>Mickael Ferri - Développeur Front-End</title>
+</head>
+<body>  
+    <header>
+        <nav id="nav-desktop">
+            <ul class="menu-left">
+                <li>
+                    <a href="" class="logo"><span>M</span> Micka</a>
+                </li>
+            </ul>
+            <ul class="menu-right">
+                <li>
+                    <i class="fas fa-bars" id="icone-bg"></i>
+                </li>
+                <li>
+                    <a href="#about">A propos</a>
+                </li>
+
+                <li>
+                    <a href="#competences">Compétences</a>
+                </li>
+                
+                <li>
+                    <a href="#projets">Projets</a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="cta button-contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav id="nav-mobil">
+            <ul class="top">
+                <li>
+                    <h3>Micka</h3>
+                </li>
+                <li>
+                    <i class="fas fa-times" id="icone-croix"></i>
+                </li>
+            </ul>
+            <ul class="liens">
+                <li>
+                    <a href="#about">A propos</a>
+                </li>
+
+                <li>
+                    <a href="#competences">Compétences</a>
+                </li>
+
+                <li>
+                    <a href="#projets">Projets</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/MickaelFerri25" target="BLANK_">Github</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about" id="about">
+        <h1>Je suis développeur <span>Front-end</span></h1>
+        <p>
+            Depuis 1 ans j'aide les entreprises à mettre en valeur leurs produits<br>
+            en apportant stratégiquement une solution pour les aider et rendre leur clients heureux.
+        </p>
+        <p class="invisible" id="para-voir-plus">
+            je suis Mickael Ferri, développeur Front-end depuis 1 ans et demi.Je suis passioné de code<br>
+            mais aussi de webdesign, je réalise des sites web sur-mesure<br><br>
+            <strong>Contact </strong><br>
+            Email : michaelferri664@gmail.com<br>
+            Tel : 07 49 35 51 34
+        </p>
+        <a href="#" id="voir-plus">Voir plus <i class="fa fa-long-arrow-right" id="i-voir-plus"></i></a>
+        <a href="#" class="voir-moins" id="voir-moins">Voir moins</a>
+    </section>
+    <section class="skils" id="competences">
+        <div class="skil">
+            <h2>Mes compétences</h2>
+            <div class="cards">
+                <div class="card">
+                   <i class="fa fa-terminal"></i>
+                    <h3>Front-End</h3>
+                    <p>HTML | SCSS | JS</p>
+                </div>
+                <div class="card">
+                   
+                    <i class="fab fa-figma"></i>
+                    <h3>Webdesign</h3>
+                    <p>Figma</p>
+                </div>
+            </div>
+            <div class="card-fullstack">
+                <i class="fa fa-code"></i>
+                <h3>Fullstack</h3>
+                <p>PHP | Node.js</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="./assets/img/terminal.svg" alt="">
+        </div>
+    </section>
+    <section class="projets" id="projets">
+        <h2>Mes projets</h2>
+        <ul>
+            <li>
+                <div class="made">
+                    <h3><a href="">Made</a></h3>
+                    <p>Crée en mai 2020</p>
+                </div>
+            </li>
+            <li>
+                <h3><a href="">SmallProdGame</a></h3>
+                <p>Crée en mars 2020</p>
+            </li>
+        </ul>
+        <a href="https://github.com/MickaelFerri25" class="cta github" target="BLANK_"><i class="fa fa-github"></i> Mon github</a>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <form action="" method="post">
+            <div class="info">
+                <input type="text" required placeholder="Prénom / Nom">
+                <input type="email" required class="email" placeholder="Email">
+            </div>
+            <div class="info2">
+                <input type="text" required placeholder="Type : front-end / back-end / fullstack">
+                <textarea required placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">Envoyer</button>
+        </form>
+        <p>Crée par <strong>Micka</strong></p>
+    </section>
+</body>
+</html>

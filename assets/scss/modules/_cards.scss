@@ -1,0 +1,78 @@
+@import 'variables.scss';
+
+.skils {
+    margin: 160px 120px 160px;
+    @media screen and (max-width:1100px) {
+        margin: 40px 120px 80px;
+    }
+    .cards {
+        display: flex;
+        .card {
+            transition: 0.2s ease-in-out;
+            cursor: pointer;
+            margin-top: 16px;
+            margin-right: 20px;
+            background-color: $w;
+            padding: 26px;
+            border: 3px solid $w;
+            text-align: center;
+            border-radius: 2px;
+            box-shadow: 5px 5px 24px rgba(0,0,0,0.05);
+            &:hover {
+                border: 3px solid $blue;
+            }
+        }
+    }
+    .card-fullstack {
+        transition: 0.2s ease-in-out;
+        cursor: pointer;
+        border: 3px solid $w;
+        margin-top: 16px;
+        margin-right: 20px;
+        background-color: $w;
+        padding: 26px;
+        text-align: center;
+        border-radius: 3px;
+        box-shadow: 7px 7px 24px rgba(0,0,0,0.0);
+        &:hover {
+            border: 3px solid $blue;
+        }
+    }
+    @media screen and (max-width:1190px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @media screen and (max-width:600px) {
+            margin: 60px 60px;
+            transform: translateY(-30px);
+        }
+        .cards {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .card {
+                margin-top: 16px;
+                margin-right: 20px;
+                background-color: $w;
+                padding: 26px;
+                text-align: center;
+                border-radius: 2px;
+                box-shadow: 5px 5px 24px rgba(0,0,0,0.05);
+            }
+        }
+        .img {
+            text-align: center;
+            margin-left: 0px!important;
+            img {
+                margin-top: 40px!important;
+                @media screen and (max-width:900px) {
+                    width: 470px;
+                }
+                @media screen and (max-width:600px) {
+                    width: 350px;
+                }
+            }
+        }
+    }
+}
+
